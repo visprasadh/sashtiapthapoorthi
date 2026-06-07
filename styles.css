@@ -319,9 +319,12 @@ body.lang-ta .hosts__greeting {
 }
 
 body.lang-ta .invite-text__intro,
-body.lang-ta .invite-text__lead,
+body.lang-ta .invite-text__lead {
+  font-size: 0.75rem;
+}
+
 body.lang-ta .invite-text__body {
-  font-size: 0.94rem;
+  font-size: 0.8rem;
 }
 
 body.lang-ta .event-banner {
@@ -335,14 +338,19 @@ body.lang-ta .invite-text__of {
 
 body.lang-ta .couple-names h2 {
   font-size: clamp(1.03rem, 4vw, 1.32rem);
+  margin-bottom: 0.3rem;
+}
+
+body.lang-ta .couple-names__person > h2 + .couple-names__qualification {
+  margin-top: 0.45rem;
 }
 
 body.lang-ta .couple-names__parentage {
-  font-size: 0.86rem;
+  font-size: 0.75rem;
 }
 
 body.lang-ta .couple-names__qualification {
-  font-size: 0.86rem;
+  font-size: 0.75rem;
 }
 
 body.lang-ta .details__title {
