@@ -142,7 +142,7 @@
         'DTSTART;TZID=Asia/Kolkata:20260611T083000',
         'DTEND;TZID=Asia/Kolkata:20260611T110000',
         'SUMMARY:' + strings.calendarSummary,
-        'LOCATION:https://share.google/fdVBluKOaZZUN97FN',
+        'LOCATION:https://maps.app.goo.gl/p8oYNp4ysghVrKzM8?g_st=ac',
         'DESCRIPTION:' + strings.calendarDescription,
         'BEGIN:VALARM',
         'ACTION:DISPLAY',
