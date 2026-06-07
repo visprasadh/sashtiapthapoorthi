@@ -530,7 +530,7 @@ body.lang-ta .host__title {
   aspect-ratio: 1;
   display: block;
   opacity: 0.45;
-  animation: mandala-spin 120s linear infinite;
+  animation: mandala-spin 60s linear infinite;
   transform-origin: center center;
 }
 
@@ -744,7 +744,7 @@ body.lang-ta .host__title {
 }
 
 .lotus-art__img {
-  width: min(44vw, 133px);
+  width: min(26.4vw, 80px);
   height: auto;
   display: block;
   opacity: 0.92;
@@ -863,7 +863,7 @@ body.lang-ta .host__title {
   }
 
   .lotus-art__img {
-    width: 154px;
+    width: 92px;
   }
 }
 
