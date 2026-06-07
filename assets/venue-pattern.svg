@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <g id="kolam-petal" fill="none" stroke="#9a7b1a" stroke-width="0.55" stroke-linecap="round">
+      <path d="M40 40 C42 28 40 16 40 6"/>
+      <path d="M40 40 C48 34 54 26 58 18"/>
+      <circle cx="40" cy="6" r="1.4" fill="#8b3040" stroke="none"/>
+      <circle cx="58" cy="18" r="1" fill="#8b3040" stroke="none"/>
+    </g>
+    <pattern id="kolam" width="80" height="80" patternUnits="userSpaceOnUse">
+      <g>
+        <use href="#kolam-petal" transform="rotate(0 40 40)"/>
+        <use href="#kolam-petal" transform="rotate(45 40 40)"/>
+        <use href="#kolam-petal" transform="rotate(90 40 40)"/>
+        <use href="#kolam-petal" transform="rotate(135 40 40)"/>
+        <use href="#kolam-petal" transform="rotate(180 40 40)"/>
+        <use href="#kolam-petal" transform="rotate(225 40 40)"/>
+        <use href="#kolam-petal" transform="rotate(270 40 40)"/>
+        <use href="#kolam-petal" transform="rotate(315 40 40)"/>
+      </g>
+      <path
+        d="M40 28 L46 40 L40 52 L34 40 Z"
+        fill="none"
+        stroke="#6b1c2a"
+        stroke-width="0.45"
+        opacity="0.6"
+      />
+      <circle cx="40" cy="40" r="2.2" fill="#6b1c2a" stroke="#c9a227" stroke-width="0.4"/>
+      <circle cx="40" cy="40" r="6" fill="none" stroke="#c9a227" stroke-width="0.35" opacity="0.5"/>
+    </pattern>
+  </defs>
+  <rect width="80" height="80" fill="url(#kolam)"/>
+</svg>
