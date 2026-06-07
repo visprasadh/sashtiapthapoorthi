@@ -31,6 +31,7 @@
 html {
   scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -64,8 +65,10 @@ body {
 /* ── Main container ── */
 .invitation {
   max-width: var(--max-width);
+  width: 100%;
   margin: 0 auto;
   padding: 1.25rem 1rem 3rem;
+  overflow-x: clip;
 }
 
 .frame {
@@ -74,6 +77,8 @@ body {
   padding: 2.75rem 1.75rem;
   box-shadow: var(--shadow-card);
   isolation: isolate;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 .frame__chrome {
@@ -328,7 +333,7 @@ body.lang-ta .details__label {
 }
 
 body.lang-ta .details__value {
-  font-size: 1.4rem;
+  font-size: clamp(0.85rem, 3.2vw, 1.4rem);
 }
 
 body.lang-ta .venue__title {
@@ -439,6 +444,9 @@ body.lang-ta .host__title {
   color: var(--maroon-deep);
   letter-spacing: 0.08em;
   line-height: 1.4;
+  max-width: 100%;
+  overflow-wrap: break-word;
+  padding-inline: 0.25rem;
 }
 
 .couple-names__qualification {
@@ -447,6 +455,9 @@ body.lang-ta .host__title {
   font-style: italic;
   margin: 0.15rem 0 0.25rem;
   line-height: 1.45;
+  max-width: 100%;
+  overflow-wrap: break-word;
+  padding-inline: 0.25rem;
 }
 
 .couple-names__parentage {
@@ -485,12 +496,16 @@ body.lang-ta .host__title {
 .details__stage {
   display: grid;
   place-items: center;
-  padding: 0 1rem;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  padding: 0 0.25rem;
 }
 
 .details__mandala {
   grid-area: 1 / 1;
-  width: min(98vw, 580px);
+  width: min(100%, 580px);
+  max-width: 100%;
   aspect-ratio: 1;
   display: block;
   opacity: 0.45;
@@ -508,8 +523,11 @@ body.lang-ta .host__title {
   position: relative;
   z-index: 1;
   text-align: center;
-  padding: 0;
-  max-width: 380px;
+  width: 100%;
+  max-width: min(380px, 100%);
+  min-width: 0;
+  padding: 0 0.35rem;
+  box-sizing: border-box;
 }
 
 .details__title {
@@ -517,7 +535,7 @@ body.lang-ta .host__title {
   font-size: 1.05rem;
   font-weight: 600;
   color: var(--maroon-deep);
-  letter-spacing: 0.22em;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
   margin-bottom: 0.5rem;
   text-shadow: 0 0 10px rgba(250, 246, 238, 0.95), 0 0 24px rgba(250, 246, 238, 0.85);
@@ -536,6 +554,9 @@ body.lang-ta .host__title {
   align-items: center;
   gap: 0.2rem;
   padding: 0.1rem 0;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
 }
 
 .details__divider {
@@ -549,7 +570,7 @@ body.lang-ta .host__title {
   font-family: var(--font-display);
   font-size: 0.92rem;
   font-weight: 600;
-  letter-spacing: 0.18em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--maroon);
   text-shadow: 0 0 8px rgba(250, 246, 238, 0.95), 0 0 18px rgba(250, 246, 238, 0.8);
@@ -557,11 +578,14 @@ body.lang-ta .host__title {
 
 .details__value {
   font-family: var(--font-display);
-  font-size: 1.6rem;
+  font-size: clamp(0.88rem, 3.4vw, 1.6rem);
   font-weight: 600;
   color: #2a0810;
   line-height: 1.35;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
+  max-width: 100%;
+  overflow-wrap: break-word;
+  text-wrap: balance;
   text-shadow: 0 0 10px rgba(250, 246, 238, 0.95), 0 0 24px rgba(250, 246, 238, 0.85);
 }
 
@@ -607,11 +631,14 @@ body.lang-ta .host__title {
 
 .venue__name {
   font-family: var(--font-display);
-  font-size: 1.15rem;
+  font-size: clamp(0.95rem, 3.8vw, 1.15rem);
   font-weight: 600;
   color: var(--maroon);
   letter-spacing: 0.05em;
   line-height: 1.3;
+  max-width: 100%;
+  overflow-wrap: break-word;
+  text-wrap: balance;
 }
 
 .venue__location {
@@ -789,6 +816,20 @@ body.lang-ta .host__title {
 
   .details__content {
     max-width: 400px;
+    padding: 0;
+  }
+
+  .details__title {
+    letter-spacing: 0.22em;
+  }
+
+  .details__label {
+    letter-spacing: 0.18em;
+  }
+
+  .details__value {
+    font-size: 1.6rem;
+    letter-spacing: 0.03em;
   }
 
   .venue {
