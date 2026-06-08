@@ -5,7 +5,7 @@
       heroJayam: 'Sri Rama Jayam',
       heroTitle: 'Sashtiapthapoorthi',
       inviteOpening:
-        'With the blessings of the Almighty, our ancestors and elders, we are delighted to invite you to the Sashtiapthapoorthi',
+        'With the blessings of God, our ancestors and elders, we are delighted to invite you to the Sashtiapthapoorthi',
       event: '60th Birthday Ceremony',
       of: 'of',
       and: '&',
