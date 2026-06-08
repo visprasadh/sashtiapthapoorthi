@@ -5,7 +5,7 @@
       heroJayam: 'Sri Rama Jayam',
       heroTitle: 'Sashtiapthapoorthi',
       inviteOpening:
-        'With the blessings of the Almighty and our elders, we are delighted to invite you to the Sashtiapthapoorthi',
+        'With the blessings of the Almighty, our ancestors and elders, we are delighted to invite you to the Sashtiapthapoorthi',
       event: '60th Birthday Ceremony',
       of: 'of',
       and: '&',
@@ -45,7 +45,7 @@
       heroJayam: 'ஸ்ரீ ராம ஜெயம்',
       heroTitle: 'சஷ்டியப்தபூர்த்தி',
       inviteOpening:
-        'இறைவன் மற்றும் மூத்தோரின் ஆசியுடன், சஷ்டியப்தபூர்த்திக்கு உங்களை மகிழ்ச்சியுடன் அழைக்கின்றோம்',
+        'இறைவனின் அருளாலும், முன்னோர்களின் மற்றும் பெரியோர்களின் ஆசீர்வாதத்தாலும் சஷ்டியப்தபூர்த்தி விழாவிற்கு தங்களை அன்புடன் வரவேற்கிறோம்.',
       event: '60ஆம் பிறந்தநாள் விழா',
       of: '—',
       and: '&',
@@ -56,7 +56,7 @@
       person2Name: 'திருமதி. கவிதா குமாரவேலு',
       person2Qualification1: 'B.Sc (வீட்டு அறிவியல்)',
       person2Parentage: 'திரு. சுந்தரம் மற்றும் திருமதி. மனோகரியின் மகள்',
-      body: 'எங்கள் குடும்பம், நண்பர்கள் மற்றும் உறவினர்களுடன் இந்த சுப நிகழ்வைக் கொண்டாட எங்களுடன் இணையுங்கள்.',
+      body: 'இந்த மங்களகரமான நிகழ்வை எங்கள் குடும்பத்தினர், நண்பர்கள் மற்றும் நலன் விரும்பிகளுடன் இணைந்து கொண்டாட, தாங்கள் குடும்பத்துடன் வருகை தந்து சிறப்பிக்க அன்புடன் அழைக்கிறோம்.',
       labelDate: 'தேதி',
       valueDate: 'வியாழக்கிழமை, ஜூன் 11, 2026',
       labelTime: 'நேரம்',
