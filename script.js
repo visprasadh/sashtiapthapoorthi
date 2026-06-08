@@ -2,8 +2,10 @@
   var translations = {
     en: {
       heroInvocation: 'Sri Pachaivazhiamman Thunai',
-      intro: 'With the blessings of the Almighty and our elders,',
-      lead: 'we are delighted to invite you to the',
+      heroJayam: 'Sri Rama Jayam',
+      heroTitle: 'Sashtiapthapoorthi',
+      inviteOpening:
+        'With the blessings of the Almighty and our elders, we are delighted to invite you to the Sashtiapthapoorthi',
       event: '60th Birthday Ceremony',
       of: 'of',
       and: '&',
@@ -40,15 +42,17 @@
     },
     ta: {
       heroInvocation: 'ஸ்ரீ பச்சைவாழியம்மன் துணை',
-      intro: 'இறைவன் மற்றும் மூத்தோரின் ஆசியுடன்,',
-      lead: 'உங்களை மகிழ்ச்சியுடன் அழைக்கின்றோம்',
+      heroJayam: 'ஸ்ரீ ராம ஜெயம்',
+      heroTitle: 'சஷ்டியப்தபூர்த்தி',
+      inviteOpening:
+        'இறைவன் மற்றும் மூத்தோரின் ஆசியுடன், சஷ்டியப்தபூர்த்திக்கு உங்களை மகிழ்ச்சியுடன் அழைக்கின்றோம்',
       event: '60ஆம் பிறந்தநாள் விழா',
       of: '—',
       and: '&',
       person1Name: 'திரு. H.D. குமாரவேலு',
       person1Qualification1: 'வழக்கறிஞர் | IICA சான்றளிக்கப்பட்ட மத்தியஸ்தர்',
       person1Qualification2: 'MA (மத்தியஸ்தம்), BL, MBL',
-      person1Parentage: 'காலஞ்சென்ற திரு. தேசிங் மற்றும் திருமதி. சரஸ்வதியின் மகன்',
+      person1Parentage: 'காலஞ்சென்ற திரு. தேசிங்கு மற்றும் திருமதி. சரஸ்வதியின் மகன்',
       person2Name: 'திருமதி. கவிதா குமாரவேலு',
       person2Qualification1: 'B.Sc (வீட்டு அறிவியல்)',
       person2Parentage: 'திரு. சுந்தரம் மற்றும் திருமதி. மனோகரியின் மகள்',
