@@ -217,6 +217,7 @@ body.lang-ta .hero__invocation {
   font-style: normal;
   letter-spacing: 0.03em;
   font-size: clamp(0.57rem, 2.04vw, 0.67rem);
+  padding-top: 0.35rem;
 }
 
 .hero__tamil {
