@@ -9,6 +9,9 @@
   --gold: #c9a227;
   --gold-light: #e8c96a;
   --gold-dark: #9a7b1a;
+  --emerald: #2d6b52;
+  --emerald-mid: #1f5c44;
+  --emerald-deep: #124832;
   --text: #3d2b1f;
   --text-muted: #6b5344;
 
@@ -620,7 +623,7 @@ body.lang-ta .host__title {
   font-family: var(--font-display);
   font-size: clamp(1.15rem, 4.5vw, 1.5rem);
   font-weight: 600;
-  color: var(--maroon-deep);
+  color: var(--emerald-deep);
   letter-spacing: 0.08em;
   line-height: 1.4;
   max-width: 100%;
