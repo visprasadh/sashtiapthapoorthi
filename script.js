@@ -48,7 +48,7 @@
       person1Name: 'திரு. H.D. குமாரவேலு',
       person1Qualification1: 'வழக்கறிஞர் | IICA சான்றளிக்கப்பட்ட மத்தியஸ்தர்',
       person1Qualification2: 'MA (மத்தியஸ்தம்), BL, MBL',
-      person1Parentage: 'காலமான திரு. தேசிங் மற்றும் திருமதி. சரஸ்வதியின் மகன்',
+      person1Parentage: 'காலஞ்சென்ற திரு. தேசிங் மற்றும் திருமதி. சரஸ்வதியின் மகன்',
       person2Name: 'திருமதி. கவிதா குமாரவேலு',
       person2Qualification1: 'B.Sc (வீட்டு அறிவியல்)',
       person2Parentage: 'திரு. சுந்தரம் மற்றும் திருமதி. மனோகரியின் மகள்',
