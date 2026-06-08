@@ -1,13 +1,14 @@
 (function () {
   var translations = {
     en: {
+      heroInvocation: 'Sri Pachaivazhiamman Thunai',
       intro: 'With the blessings of the Almighty and our elders,',
       lead: 'we are delighted to invite you to the',
-      event: '60th Birthday & Marriage Reaffirmation Ceremony',
+      event: '60th Birthday Ceremony',
       of: 'of',
       and: '&',
       person1Name: 'Sri. H.D.Kumaravelu',
-      person1Qualification1: 'Advocate | Mediator',
+      person1Qualification1: 'Advocate | IICA Certified Mediator',
       person1Qualification2: 'MA(Mediation), BL, MBL',
       person1Parentage: 'Son of Late Sri Desingh & Smt. Saraswathi',
       person2Name: 'Smt. Kavitha Kumaravelu',
@@ -17,7 +18,7 @@
       labelDate: 'Date',
       valueDate: 'Thursday, 11 June 2026',
       labelTime: 'Time',
-      valueTime: '8:30 AM to 11:00 AM',
+      valueTime: '8:30 AM to 11:30 AM',
       labelMuhurtham: 'Muhurtham',
       valueMuhurtham: '10:30 AM',
       venueTitle: 'Venue',
@@ -33,18 +34,19 @@
       host2Title2: 'BA.LLB | Dip. AI Law & Policy',
       host2Title3: 'Adv. Dip Corporate Law | MBL | LLM',
       pageTitle: 'Sashtiapthapoorthi | Invitation',
-      calendarSummary: 'Sashtiapthapoorthi — 60th Birthday & Marriage Reaffirmation Ceremony',
+      calendarSummary: 'Sashtiapthapoorthi — 60th Birthday Ceremony',
       calendarDescription:
         'Muhurtham at 10:30 AM. Celebration of Sri. H.D.Kumaravelu & Smt. Kavitha Kumaravelu.'
     },
     ta: {
+      heroInvocation: 'ஸ்ரீ பச்சைவாழியம்மன் துணை',
       intro: 'இறைவன் மற்றும் மூத்தோரின் ஆசியுடன்,',
       lead: 'உங்களை மகிழ்ச்சியுடன் அழைக்கின்றோம்',
-      event: '60ஆம் பிறந்தநாள் மற்றும் திருமண உறுதிப்பிரமாண விழா',
+      event: '60ஆம் பிறந்தநாள் விழா',
       of: '—',
       and: '&',
-      person1Name: 'திரு. எச். டி. குமாரவேலு',
-      person1Qualification1: 'வழக்கறிஞர் | மத்தியஸ்தர்',
+      person1Name: 'திரு. H.D. குமாரவேலு',
+      person1Qualification1: 'வழக்கறிஞர் | IICA சான்றளிக்கப்பட்ட மத்தியஸ்தர்',
       person1Qualification2: 'MA (மத்தியஸ்தம்), BL, MBL',
       person1Parentage: 'காலமான திரு. தேசிங் மற்றும் திருமதி. சரஸ்வதியின் மகன்',
       person2Name: 'திருமதி. கவிதா குமாரவேலு',
@@ -54,7 +56,7 @@
       labelDate: 'தேதி',
       valueDate: 'வியாழக்கிழமை, ஜூன் 11, 2026',
       labelTime: 'நேரம்',
-      valueTime: 'காலை 8:30 மணி முதல் 11:00 மணி வரை',
+      valueTime: 'காலை 8:30 மணி முதல் 11:30 மணி வரை',
       labelMuhurtham: 'முகூர்த்தம்',
       valueMuhurtham: 'காலை 10:30 மணி',
       venueTitle: 'இடம்',
@@ -70,9 +72,9 @@
       host2Title2: 'BA.LLB | Dip. AI Law & Policy',
       host2Title3: 'Adv. Dip Corporate Law | MBL | LLM',
       pageTitle: 'சஷ்டியப்தபூர்த்தி | அழைப்பிதழ்',
-      calendarSummary: 'சஷ்டியப்தபூர்த்தி — 60ஆம் பிறந்தநாள் மற்றும் திருமண உறுதிப்பிரமாண விழா',
+      calendarSummary: 'சஷ்டியப்தபூர்த்தி — 60ஆம் பிறந்தநாள் விழா',
       calendarDescription:
-        'முகூர்த்தம்: காலை 10:30 மணி. திரு. எச். டி. குமாரவேலு மற்றும் திருமதி. கவிதா குமாரவேலு ஆகியோரின் விழா.'
+        'முகூர்த்தம்: காலை 10:30 மணி. திரு. H.D. குமாரவேலு மற்றும் திருமதி. கவிதா குமாரவேலு ஆகியோரின் விழா.'
     }
   };
 
@@ -90,7 +92,7 @@
     document.title = strings.pageTitle;
 
     document.querySelectorAll(
-      '.invite-text [data-i18n], .details [data-i18n], .venue [data-i18n], .hosts [data-i18n]'
+      '.hero [data-i18n], .invite-text [data-i18n], .details [data-i18n], .venue [data-i18n], .hosts [data-i18n]'
     ).forEach(function (el) {
       var key = el.getAttribute('data-i18n');
       if (strings[key] !== undefined) {
@@ -140,7 +142,7 @@
         'UID:sashtiapthapoorthi-2026-06-11@sixty',
         'DTSTAMP:20260608T120000Z',
         'DTSTART;TZID=Asia/Kolkata:20260611T083000',
-        'DTEND;TZID=Asia/Kolkata:20260611T110000',
+        'DTEND;TZID=Asia/Kolkata:20260611T113000',
         'SUMMARY:' + strings.calendarSummary,
         'LOCATION:https://maps.app.goo.gl/p8oYNp4ysghVrKzM8?g_st=ac',
         'DESCRIPTION:' + strings.calendarDescription,
